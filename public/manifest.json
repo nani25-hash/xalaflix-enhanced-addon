@@ -1,0 +1,23 @@
+{
+  "id": "com.xalaflix.enhanced",
+  "version": "2.0.0",
+  "name": "Xalaflix Enhanced",
+  "description": "Watch movies and series from Xalaflix in Stremio with maximally enhanced resolvers.",
+  "logo": "https://xalaflix.men/upload/images/logo/4.0.png",
+  "background": "https://xalaflix.men/upload/images/logo/XALAFLIX-noel.png",
+  "resources": ["catalog", "meta", "stream"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["xalaflix:"],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "xalaflix_movies",
+      "name": "Xalaflix Movies"
+    },
+    {
+      "type": "series",
+      "id": "xalaflix_series",
+      "name": "Xalaflix Series"
+    }
+  ]
+}
